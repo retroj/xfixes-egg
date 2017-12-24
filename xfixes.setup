@@ -1,0 +1,10 @@
+;; -*- scheme -*-
+
+(compile xfixes.scm -j xfixes -s -O2 -d0
+         -L "\"-lXfixes\"")
+(compile xfixes.import.scm -s -O2 -d0)
+
+(install-extension
+ 'xfixes
+ '("xfixes.so" "xfixes.import.so")
+ '((version "0.1.0")))

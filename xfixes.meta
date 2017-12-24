@@ -1,0 +1,8 @@
+;; -*- scheme -*-
+
+((license "BSD")
+ (category graphics)
+ (depends foreigners)
+ (test-depends test xlib)
+ (author "John J. Foerch")
+ (synopsis "XFixes bindings"))

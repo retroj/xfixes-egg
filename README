@@ -1,0 +1,36 @@
+== Description
+
+https://www.x.org/releases/X11R7.6/doc/fixesproto/fixesproto.txt
+
+
+=== Datatypes
+
+
+
+== Authors
+
+* John J Foerch
+
+
+== Requirements
+=== Chicken eggs
+
+* [[foreigners]]
+
+=== C headers
+
+* X11 development headers (libx11-dev)
+
+
+== API
+
+
+== Examples
+
+
+== License
+
+BSD
+
+
+== Version History
